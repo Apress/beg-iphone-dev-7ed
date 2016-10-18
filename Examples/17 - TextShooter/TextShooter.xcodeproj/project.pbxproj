@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B615BBEB199678F60092EB0E /* EnemyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B615BBEA199678F60092EB0E /* EnemyNode.m */; };
+		B61F6DED1995AEDB002DF156 /* PlayerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B61F6DEC1995AEDB002DF156 /* PlayerNode.m */; };
+		B6573B0619919BCE00273325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6573B0519919BCE00273325 /* main.m */; };
+		B6573B0919919BCE00273325 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6573B0819919BCE00273325 /* AppDelegate.m */; };
+		B6573B0C19919BCE00273325 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6573B0B19919BCE00273325 /* GameScene.m */; };
+		B6573B0E19919BCE00273325 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B6573B0D19919BCE00273325 /* GameScene.sks */; };
+		B6573B1119919BCE00273325 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6573B1019919BCE00273325 /* GameViewController.m */; };
+		B6573B1419919BCE00273325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6573B1219919BCE00273325 /* Main.storyboard */; };
+		B6573B1619919BCF00273325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6573B1519919BCF00273325 /* Images.xcassets */; };
+		B6573B2219919BCF00273325 /* TextShooterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6573B2119919BCF00273325 /* TextShooterTests.m */; };
+		B6A5D4EB19BFD97C009329D4 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A5D4EA19BFD97C009329D4 /* Launch Screen.xib */; };
+		B6C13E4A19968C5400D14066 /* BulletNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C13E4919968C5400D14066 /* BulletNode.m */; };
+		B6C4C2321996BC0B00EF2053 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C4C2311996BC0B00EF2053 /* GameOverScene.m */; };
+		B6C4C2351996BE2900EF2053 /* StartScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C4C2341996BE2900EF2053 /* StartScene.m */; };
+		B6C4C23B1996C0A600EF2053 /* enemyHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6C4C2361996C0A600EF2053 /* enemyHit.wav */; };
+		B6C4C23C1996C0A600EF2053 /* gameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6C4C2371996C0A600EF2053 /* gameOver.wav */; };
+		B6C4C23D1996C0A600EF2053 /* gameStart.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6C4C2381996C0A600EF2053 /* gameStart.wav */; };
+		B6C4C23E1996C0A600EF2053 /* playerHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6C4C2391996C0A600EF2053 /* playerHit.wav */; };
+		B6C4C23F1996C0A600EF2053 /* shoot.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6C4C23A1996C0A600EF2053 /* shoot.wav */; };
+		B6EBADB41996B1C000B94673 /* SKNode+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EBADB31996B1C000B94673 /* SKNode+Extra.m */; };
+		B6EBADB71996B63F00B94673 /* MissileExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = B6EBADB51996B63F00B94673 /* MissileExplosion.sks */; };
+		B6EBADB81996B63F00B94673 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBADB61996B63F00B94673 /* spark.png */; };
+		B6EBADBA1996B8DB00B94673 /* EnemyExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = B6EBADB91996B8DB00B94673 /* EnemyExplosion.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6573B1C19919BCF00273325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6573AF819919BCE00273325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6573AFF19919BCE00273325;
+			remoteInfo = TextShooter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B615BBE9199678F60092EB0E /* EnemyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyNode.h; sourceTree = "<group>"; };
+		B615BBEA199678F60092EB0E /* EnemyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyNode.m; sourceTree = "<group>"; };
+		B61F6DEB1995AEDB002DF156 /* PlayerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerNode.h; sourceTree = "<group>"; };
+		B61F6DEC1995AEDB002DF156 /* PlayerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerNode.m; sourceTree = "<group>"; };
+		B61F6DEE1995B3A2002DF156 /* Geometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		B6573B0019919BCE00273325 /* TextShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6573B0419919BCE00273325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6573B0519919BCE00273325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6573B0719919BCE00273325 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6573B0819919BCE00273325 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6573B0A19919BCE00273325 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B6573B0B19919BCE00273325 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B6573B0D19919BCE00273325 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B6573B0F19919BCE00273325 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B6573B1019919BCE00273325 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B6573B1319919BCE00273325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6573B1519919BCF00273325 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6573B1B19919BCF00273325 /* TextShooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextShooterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6573B2019919BCF00273325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6573B2119919BCF00273325 /* TextShooterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextShooterTests.m; sourceTree = "<group>"; };
+		B691FD8A19968B9400FB86B5 /* PhysicsCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicsCategories.h; sourceTree = "<group>"; };
+		B6A5D4EA19BFD97C009329D4 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		B6C13E4819968C5400D14066 /* BulletNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletNode.h; sourceTree = "<group>"; };
+		B6C13E4919968C5400D14066 /* BulletNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletNode.m; sourceTree = "<group>"; };
+		B6C4C2301996BC0B00EF2053 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		B6C4C2311996BC0B00EF2053 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		B6C4C2331996BE2900EF2053 /* StartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScene.h; sourceTree = "<group>"; };
+		B6C4C2341996BE2900EF2053 /* StartScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScene.m; sourceTree = "<group>"; };
+		B6C4C2361996C0A600EF2053 /* enemyHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enemyHit.wav; sourceTree = "<group>"; };
+		B6C4C2371996C0A600EF2053 /* gameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOver.wav; sourceTree = "<group>"; };
+		B6C4C2381996C0A600EF2053 /* gameStart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameStart.wav; sourceTree = "<group>"; };
+		B6C4C2391996C0A600EF2053 /* playerHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playerHit.wav; sourceTree = "<group>"; };
+		B6C4C23A1996C0A600EF2053 /* shoot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shoot.wav; sourceTree = "<group>"; };
+		B6EBADB21996B1C000B94673 /* SKNode+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+Extra.h"; sourceTree = "<group>"; };
+		B6EBADB31996B1C000B94673 /* SKNode+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+Extra.m"; sourceTree = "<group>"; };
+		B6EBADB51996B63F00B94673 /* MissileExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MissileExplosion.sks; sourceTree = "<group>"; };
+		B6EBADB61996B63F00B94673 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		B6EBADB91996B8DB00B94673 /* EnemyExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EnemyExplosion.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6573AFD19919BCE00273325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6573B1819919BCF00273325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6573AF719919BCE00273325 = {
+			isa = PBXGroup;
+			children = (
+				B6573B0219919BCE00273325 /* TextShooter */,
+				B6573B1E19919BCF00273325 /* TextShooterTests */,
+				B6573B0119919BCE00273325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6573B0119919BCE00273325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6573B0019919BCE00273325 /* TextShooter.app */,
+				B6573B1B19919BCF00273325 /* TextShooterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6573B0219919BCE00273325 /* TextShooter */ = {
+			isa = PBXGroup;
+			children = (
+				B6573B0719919BCE00273325 /* AppDelegate.h */,
+				B6573B0819919BCE00273325 /* AppDelegate.m */,
+				B6573B0A19919BCE00273325 /* GameScene.h */,
+				B6573B0B19919BCE00273325 /* GameScene.m */,
+				B6573B0D19919BCE00273325 /* GameScene.sks */,
+				B6573B0F19919BCE00273325 /* GameViewController.h */,
+				B6573B1019919BCE00273325 /* GameViewController.m */,
+				B61F6DEB1995AEDB002DF156 /* PlayerNode.h */,
+				B61F6DEC1995AEDB002DF156 /* PlayerNode.m */,
+				B615BBE9199678F60092EB0E /* EnemyNode.h */,
+				B615BBEA199678F60092EB0E /* EnemyNode.m */,
+				B691FD8A19968B9400FB86B5 /* PhysicsCategories.h */,
+				B6C13E4819968C5400D14066 /* BulletNode.h */,
+				B6C13E4919968C5400D14066 /* BulletNode.m */,
+				B6C4C2301996BC0B00EF2053 /* GameOverScene.h */,
+				B6C4C2311996BC0B00EF2053 /* GameOverScene.m */,
+				B6EBADB21996B1C000B94673 /* SKNode+Extra.h */,
+				B6EBADB31996B1C000B94673 /* SKNode+Extra.m */,
+				B6C4C2331996BE2900EF2053 /* StartScene.h */,
+				B6C4C2341996BE2900EF2053 /* StartScene.m */,
+				B6573B1219919BCE00273325 /* Main.storyboard */,
+				B61F6DEE1995B3A2002DF156 /* Geometry.h */,
+				B6EBADB51996B63F00B94673 /* MissileExplosion.sks */,
+				B6EBADB91996B8DB00B94673 /* EnemyExplosion.sks */,
+				B6EBADB61996B63F00B94673 /* spark.png */,
+				B6A5D4EA19BFD97C009329D4 /* Launch Screen.xib */,
+				B6573B1519919BCF00273325 /* Images.xcassets */,
+				B6C4C2361996C0A600EF2053 /* enemyHit.wav */,
+				B6C4C2371996C0A600EF2053 /* gameOver.wav */,
+				B6C4C2381996C0A600EF2053 /* gameStart.wav */,
+				B6C4C2391996C0A600EF2053 /* playerHit.wav */,
+				B6C4C23A1996C0A600EF2053 /* shoot.wav */,
+				B6573B0319919BCE00273325 /* Supporting Files */,
+			);
+			path = TextShooter;
+			sourceTree = "<group>";
+		};
+		B6573B0319919BCE00273325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6573B0419919BCE00273325 /* Info.plist */,
+				B6573B0519919BCE00273325 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6573B1E19919BCF00273325 /* TextShooterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6573B2119919BCF00273325 /* TextShooterTests.m */,
+				B6573B1F19919BCF00273325 /* Supporting Files */,
+			);
+			path = TextShooterTests;
+			sourceTree = "<group>";
+		};
+		B6573B1F19919BCF00273325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6573B2019919BCF00273325 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6573AFF19919BCE00273325 /* TextShooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6573B2519919BCF00273325 /* Build configuration list for PBXNativeTarget "TextShooter" */;
+			buildPhases = (
+				B6573AFC19919BCE00273325 /* Sources */,
+				B6573AFD19919BCE00273325 /* Frameworks */,
+				B6573AFE19919BCE00273325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextShooter;
+			productName = TextShooter;
+			productReference = B6573B0019919BCE00273325 /* TextShooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6573B1A19919BCF00273325 /* TextShooterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6573B2819919BCF00273325 /* Build configuration list for PBXNativeTarget "TextShooterTests" */;
+			buildPhases = (
+				B6573B1719919BCF00273325 /* Sources */,
+				B6573B1819919BCF00273325 /* Frameworks */,
+				B6573B1919919BCF00273325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6573B1D19919BCF00273325 /* PBXTargetDependency */,
+			);
+			name = TextShooterTests;
+			productName = TextShooterTests;
+			productReference = B6573B1B19919BCF00273325 /* TextShooterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6573AF819919BCE00273325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					B6573AFF19919BCE00273325 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B6573B1A19919BCF00273325 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B6573AFF19919BCE00273325;
+					};
+				};
+			};
+			buildConfigurationList = B6573AFB19919BCE00273325 /* Build configuration list for PBXProject "TextShooter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6573AF719919BCE00273325;
+			productRefGroup = B6573B0119919BCE00273325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6573AFF19919BCE00273325 /* TextShooter */,
+				B6573B1A19919BCF00273325 /* TextShooterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6573AFE19919BCE00273325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EBADB81996B63F00B94673 /* spark.png in Resources */,
+				B6573B1619919BCF00273325 /* Images.xcassets in Resources */,
+				B6573B0E19919BCE00273325 /* GameScene.sks in Resources */,
+				B6C4C23B1996C0A600EF2053 /* enemyHit.wav in Resources */,
+				B6EBADB71996B63F00B94673 /* MissileExplosion.sks in Resources */,
+				B6A5D4EB19BFD97C009329D4 /* Launch Screen.xib in Resources */,
+				B6EBADBA1996B8DB00B94673 /* EnemyExplosion.sks in Resources */,
+				B6C4C23D1996C0A600EF2053 /* gameStart.wav in Resources */,
+				B6C4C23E1996C0A600EF2053 /* playerHit.wav in Resources */,
+				B6C4C23C1996C0A600EF2053 /* gameOver.wav in Resources */,
+				B6C4C23F1996C0A600EF2053 /* shoot.wav in Resources */,
+				B6573B1419919BCE00273325 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6573B1919919BCF00273325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6573AFC19919BCE00273325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6573B1119919BCE00273325 /* GameViewController.m in Sources */,
+				B6C4C2321996BC0B00EF2053 /* GameOverScene.m in Sources */,
+				B6C13E4A19968C5400D14066 /* BulletNode.m in Sources */,
+				B6573B0919919BCE00273325 /* AppDelegate.m in Sources */,
+				B615BBEB199678F60092EB0E /* EnemyNode.m in Sources */,
+				B6EBADB41996B1C000B94673 /* SKNode+Extra.m in Sources */,
+				B6573B0C19919BCE00273325 /* GameScene.m in Sources */,
+				B6573B0619919BCE00273325 /* main.m in Sources */,
+				B61F6DED1995AEDB002DF156 /* PlayerNode.m in Sources */,
+				B6C4C2351996BE2900EF2053 /* StartScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6573B1719919BCF00273325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6573B2219919BCF00273325 /* TextShooterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6573B1D19919BCF00273325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6573AFF19919BCE00273325 /* TextShooter */;
+			targetProxy = B6573B1C19919BCF00273325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6573B1219919BCE00273325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6573B1319919BCE00273325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6573B2319919BCF00273325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6573B2419919BCF00273325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6573B2619919BCF00273325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TextShooter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6573B2719919BCF00273325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TextShooter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6573B2919919BCF00273325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextShooterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextShooter.app/TextShooter";
+			};
+			name = Debug;
+		};
+		B6573B2A19919BCF00273325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextShooterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextShooter.app/TextShooter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6573AFB19919BCE00273325 /* Build configuration list for PBXProject "TextShooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6573B2319919BCF00273325 /* Debug */,
+				B6573B2419919BCF00273325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6573B2519919BCF00273325 /* Build configuration list for PBXNativeTarget "TextShooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6573B2619919BCF00273325 /* Debug */,
+				B6573B2719919BCF00273325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6573B2819919BCF00273325 /* Build configuration list for PBXNativeTarget "TextShooterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6573B2919919BCF00273325 /* Debug */,
+				B6573B2A19919BCF00273325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6573AF819919BCE00273325 /* Project object */;
+}

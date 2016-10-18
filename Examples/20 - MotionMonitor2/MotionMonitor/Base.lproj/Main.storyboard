@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Main View">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="480" translatesAutoresizingMaskIntoConstraints="NO" id="4ac-YN-QG8">
+                                <rect key="frame" x="0.0" y="20" width="480" height="148"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="480" translatesAutoresizingMaskIntoConstraints="NO" id="SHz-Ig-GkQ">
+                                <rect key="frame" x="0.0" y="176" width="480" height="148"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="480" translatesAutoresizingMaskIntoConstraints="NO" id="Nj4-yE-XhT">
+                                <rect key="frame" x="0.0" y="332" width="480" height="148"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SHz-Ig-GkQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5ES-1e-aJg"/>
+                            <constraint firstAttribute="trailing" secondItem="Nj4-yE-XhT" secondAttribute="trailing" id="5Qx-25-9SL"/>
+                            <constraint firstItem="Nj4-yE-XhT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6qa-y4-xm1"/>
+                            <constraint firstAttribute="trailing" secondItem="4ac-YN-QG8" secondAttribute="trailing" id="LMr-mU-KlC"/>
+                            <constraint firstItem="4ac-YN-QG8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="e5q-Je-y5e"/>
+                            <constraint firstItem="SHz-Ig-GkQ" firstAttribute="top" secondItem="4ac-YN-QG8" secondAttribute="bottom" constant="8" id="ep0-73-LPm"/>
+                            <constraint firstItem="4ac-YN-QG8" firstAttribute="height" secondItem="Nj4-yE-XhT" secondAttribute="height" id="jhq-0k-2yc"/>
+                            <constraint firstAttribute="trailing" secondItem="SHz-Ig-GkQ" secondAttribute="trailing" id="sHY-8x-gqc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Nj4-yE-XhT" secondAttribute="bottom" id="tpG-9v-xL8"/>
+                            <constraint firstItem="Nj4-yE-XhT" firstAttribute="top" secondItem="SHz-Ig-GkQ" secondAttribute="bottom" constant="8" id="xtS-8Q-Ore"/>
+                            <constraint firstItem="4ac-YN-QG8" firstAttribute="height" secondItem="SHz-Ig-GkQ" secondAttribute="height" id="xyL-qz-Bsz"/>
+                            <constraint firstItem="4ac-YN-QG8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yHM-e5-ddx"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <connections>
+                        <outlet property="accelerometerLabel" destination="SHz-Ig-GkQ" id="t6O-5f-SGD"/>
+                        <outlet property="attitudeLabel" destination="Nj4-yE-XhT" id="t4b-TD-beC"/>
+                        <outlet property="gyroscopeLabel" destination="4ac-YN-QG8" id="7s3-Zy-dta"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

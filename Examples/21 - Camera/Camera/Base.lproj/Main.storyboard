@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Main View">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wwj-Xe-d6u">
+                                <rect key="frame" x="0.0" y="550" width="600" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="stE-xx-vPG"/>
+                                </constraints>
+                                <state key="normal" title="Pick from Library">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectExistingPictureOrVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kWz-Z6-1Dl"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dvq-4g-5kQ">
+                                <rect key="frame" x="0.0" y="20" width="600" height="484"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9d8-XC-cTQ">
+                                <rect key="frame" x="0.0" y="512" width="600" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="68h-gi-H59"/>
+                                </constraints>
+                                <state key="normal" title="New Photo or Video">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shootPictureOrVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wE9-Ig-wMk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wwj-Xe-d6u" secondAttribute="bottom" constant="20" id="0bm-tx-u8N"/>
+                            <constraint firstAttribute="trailing" secondItem="9d8-XC-cTQ" secondAttribute="trailing" id="3WZ-qg-xMv"/>
+                            <constraint firstItem="Wwj-Xe-d6u" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="AQQ-ll-GAh"/>
+                            <constraint firstItem="Dvq-4g-5kQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Aw4-aS-keK"/>
+                            <constraint firstItem="9d8-XC-cTQ" firstAttribute="top" secondItem="Dvq-4g-5kQ" secondAttribute="bottom" constant="8" id="GHe-A3-uxR"/>
+                            <constraint firstAttribute="trailing" secondItem="Dvq-4g-5kQ" secondAttribute="trailing" id="GcX-1g-wEs"/>
+                            <constraint firstItem="Dvq-4g-5kQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="I1G-xp-yPX"/>
+                            <constraint firstItem="Wwj-Xe-d6u" firstAttribute="top" secondItem="9d8-XC-cTQ" secondAttribute="bottom" constant="8" id="hqM-G3-ksc"/>
+                            <constraint firstItem="9d8-XC-cTQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="j7N-Nl-1U3"/>
+                            <constraint firstAttribute="trailing" secondItem="Wwj-Xe-d6u" secondAttribute="trailing" id="lU4-Wq-EI5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Dvq-4g-5kQ" id="MLs-yl-yNv"/>
+                        <outlet property="takePictureButton" destination="9d8-XC-cTQ" id="gCP-Bt-jtG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
